@@ -39,25 +39,25 @@ public class Main {
 //        House d3 = new House(23);
 //        System.out.println(d3);
 //
-//        // 1.2.1
-//        Point start1 = new Point(1, 3);
-//        Point end1 = new Point(23, 8);
-//        Line l1 = new Line(start1, end1);
-//        System.out.println(l1);
-//
-//        Point start2 = new Point(5, 10);
-//        Point end2 = new Point(25, 10);
-//        Line l2 = new Line(start2, end2);
-//        System.out.println(l2);
-//
-//        Line l3 = new Line(start1, end2);
-//        System.out.println(l3);
-//
-//        l1.setStart(new Point(1, 5));
-//        l2.setEnd(new Point(24, 9));
-//
-//        l1.setEnd(new Point(7, 7));
-//        l2.setStart(new Point(1, 1));
+        // 1.2.1
+        Point start1 = new Point(1, 3);
+        Point end1 = new Point(23, 8);
+        Line l1 = new Line(start1, end1);
+        System.out.println(l1);
+
+        Point start2 = new Point(5, 10);
+        Point end2 = new Point(25, 10);
+        Line l2 = new Line(start2, end2);
+        System.out.println(l2);
+
+        Line l3 = new Line(start1, end2);
+        System.out.println(l3);
+
+        l1.setStart(new Point(1, 5));
+        l2.setEnd(new Point(24, 9));
+
+        l1.setEnd(new Point(7, 7));
+        l2.setStart(new Point(1, 1));
 //
 //        // 1.2.2
 //        HumanWithName h1 = new HumanWithName(A, 152);

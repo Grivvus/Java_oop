@@ -17,7 +17,8 @@ public class Line {
         this.end = n2;
     }
 
-    public String toString(){
+    public String toString()
+    {
         return "Линия от " + start.toString() + " до " + end.toString();
     }
 }
